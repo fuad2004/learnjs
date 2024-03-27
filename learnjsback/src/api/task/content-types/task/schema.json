@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "task",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "functionName": {
+      "type": "string"
+    },
+    "code": {
+      "type": "richtext"
+    },
+    "testCode": {
+      "type": "richtext"
+    },
+    "selfId": {
+      "type": "integer",
+      "unique": true
+    },
+    "task": {
+      "type": "blocks"
+    }
+  }
+}
