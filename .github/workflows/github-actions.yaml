@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: cd learnjsvite
+      - run: cd ./learnjsvite
       - run: npm install
       - run: npm run build
