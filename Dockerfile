@@ -1,9 +1,5 @@
 FROM node:18.19
 
-# RUN addgroup app && adduser -S -G app app
-
-# USER app
-
 WORKDIR /app
 
 RUN mkdir -p learnjsback
@@ -15,12 +11,6 @@ RUN npm install pm2 -g
 COPY ./learnjsback/package*.json ./learnjsback
 
 COPY ./learnjsvite/package*.json ./learnjsvite
-
-# USER root
-
-# RUN chown -R app:app .
-
-# USER app
 
 COPY . .
 
