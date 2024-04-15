@@ -11,7 +11,6 @@
 ./learnjsvite/dist-ssr
 ./learnjsvite/*.local
 
-./learnjsvite/.env
 ./learnjsvite/.vscode/*
 ./learnjsvite/!.vscode/extensions.json
 ./learnjsvite/.idea
